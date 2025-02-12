@@ -1,6 +1,6 @@
 
 import google.generativeai as genai
-f=open(r"D:/Docu/pyjunb/API_keys/API_key_innomatics.txt")
+f=open(r"D:API_key_innomatics.txt")
 key=f.read()
 genai.configure(api_key=key)
 import streamlit as st
